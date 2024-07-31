@@ -1,20 +1,22 @@
-.navbar{
-    position: -webkit-sticky;
+/* navigation */
+
+div.navbar{
+        position: -webkit-sticky;
         position: sticky;
         top: 0px;
-        left: 5px;
-        padding: 5px;
+        left: 0px;
+        padding: 10px;
+        z-index: 1;
 }
 
     ul{
         list-style-type: none;
         margin: 0;
-        padding-left: 500px;
+        padding: 0;
         background-color:white;
-        width: auto;
+        width: 100%;
         height: 40px;
         top: 10px;
-
         
     }
     li{
@@ -40,19 +42,323 @@
         height: 20px;
         width: 20px;
     }
-    .main{
+    .relative{
         position: relative;
     }
-    .main img{
-        width: 100%;
+    .relative img{
+        width:100% ;
         height: 800px;
     }
-    div.center{
+    .bottomcenter{
         position: absolute;
         top: 50%;
         width: 100%;
         text-align: center;
-        font-size: 18px;
-        color: rgb(8, 8, 8);
+        font-size: 18px; 
+        color: white;
 
     }
+    .bottomcenter h1{
+        font-size:100px;
+        text-shadow: 2px 2px 5px black;
+        margin-bottom: 0;
+    }
+    .bottomcenter p{
+        margin: 10px;
+        font-size: 30px;
+    }
+     button{
+        border: 3px solid blue;
+        border-radius: 20px;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+     a{
+        text-decoration: none;
+    }
+    /* buy mac */
+    .buymac{
+        position: relative;
+    }
+    .buymac img{
+        width: 100%;
+        height: 800px;
+    }
+   .shop button{
+        position: absolute;
+        top: 85.8%;
+        left: 47.1%;
+        border: 4px solid rgb(32, 7, 255);
+   }
+   
+/* mac book air */
+
+.macbook{
+    position: relative;
+}
+.macbook img{
+    width:100% ;
+    height: 800px;
+}
+.macair{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px; 
+    color: white;
+
+}
+.macair h1{
+    font-size:100px;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 0;
+}
+.macair p{
+    margin: 10px;
+    font-size: 30px;
+}
+
+/* grid */
+
+.iphone{
+    grid-area: iphone;
+    background-color: black;
+}
+.ai{
+    grid-area: ai;
+    background-color: red;
+}
+.ipad{
+    grid-area: ipad;
+    background-color: red;
+}
+.iwatch{
+    grid-area: iwatch;
+    background-color: black;
+}
+.icard{
+    grid-area: icard;
+    background-color: black;
+}
+.tradein{
+    grid-area: tradein;
+    background-color: red;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-rows:600px 600px 600px;
+    grid-template-areas:
+    'iphone  iphone ai ai'
+    'ipad ipad iwatch iwatch'
+    'icard icard tradein tradein'
+}
+
+/* iphone */
+
+.iphone{
+    position: relative;
+    margin: 5px;
+}
+.iphone img{
+    width:100% ;
+    height: 100%;
+}
+.iph{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px; 
+    color: white;
+
+}
+.iph h1{
+    font-size:100px;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 0;
+}
+.iph p{
+    margin: 10px;
+    font-size: 30px;
+}
+
+/* ai */
+
+.ai{
+    position: relative;
+    margin: 5px;
+}
+.ai img{
+    width:  100% ;
+    height: 100%;
+}
+.iai{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px; 
+    color: white;
+
+}
+.iai h1{
+    font-size:100px;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 0;
+}
+.iai p{
+    margin: 10px;
+    font-size: 30px;
+}
+ai{
+    position: relative;
+    margin: 5px;
+}
+.ai img{
+    width:  100% ;
+    height: 100%;
+}
+.iai{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px; 
+    color: white;
+
+}
+.iai h1{
+    font-size:100px;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 0;
+}
+.iai p{
+    margin: 10px;
+    font-size: 30px;
+}
+
+
+/* ipad */
+.ipad{
+    position: relative;
+    margin: 5px;
+}
+.ipad img{
+    width:  100% ;
+    height: 100%;
+}
+.ipro{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px; 
+    color: white;
+
+}
+.ipro h1{
+    font-size:100px;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 0;
+}
+.ipro p{
+    margin: 10px;
+    font-size: 30px;
+}
+
+/* iwatch */
+.iwatch{
+    position: relative;
+    margin: 5px;
+}
+.iwatch img{
+    width:  100% ;
+    height: 100%;
+}
+.watchi{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px; 
+    color: white;
+
+}
+.watchi h1{
+    font-size:100px;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 0;
+}
+.watchi p{
+    margin: 10px;
+    font-size: 30px;
+}
+
+/* icard */
+
+.icard{
+    position: relative;
+    margin: 5px;
+}
+.icard img{
+    width:  100% ;
+    height: 100%;
+}
+.cardi{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px; 
+    color: white;
+
+}
+.cardi h1{
+    font-size:100px;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 0;
+}
+.cardi p{
+    margin: 10px;
+    font-size: 30px;
+}
+
+/* trade in */
+.tradein{
+    position: relative;
+    margin: 5px;
+}
+.tradein img{
+    width:  100% ;
+    height: 100%;
+}
+.intrade{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px; 
+    color: white;
+
+}
+.intrade h1{
+    font-size:100px;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 0;
+}
+.intrade p{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.footer{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
