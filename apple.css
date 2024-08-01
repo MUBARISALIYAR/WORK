@@ -7,6 +7,7 @@ div.navbar{
         left: 0px;
         padding: 10px;
         z-index: 1;
+        
 }
 
     ul{
@@ -17,6 +18,8 @@ div.navbar{
         width: 100%;
         height: 40px;
         top: 10px;
+        left: 50%;
+        padding-left: 500px;
         
     }
     li{
@@ -184,6 +187,7 @@ div.navbar{
     margin-bottom: 0;
 }
 .iph p{
+    text-shadow:2px 2px 2px black;
     margin: 10px;
     font-size: 30px;
 }
@@ -215,6 +219,7 @@ div.navbar{
 .iai p{
     margin: 10px;
     font-size: 30px;
+    text-shadow:2px 2px 2px black;
 }
 ai{
     position: relative;
@@ -239,6 +244,7 @@ ai{
     margin-bottom: 0;
 }
 .iai p{
+    text-shadow:2px 2px 2px black;
     margin: 10px;
     font-size: 30px;
 }
@@ -268,6 +274,7 @@ ai{
     margin-bottom: 0;
 }
 .ipro p{
+    text-shadow:2px 2px 2px black;
     margin: 10px;
     font-size: 30px;
 }
@@ -297,6 +304,7 @@ ai{
 }
 .watchi p{
     margin: 10px;
+    text-shadow:2px 2px 2px black;
     font-size: 30px;
 }
 
@@ -312,12 +320,12 @@ ai{
 }
 .cardi{
     position: absolute;
-    top: 45%;
+    top: 39%;
     width: 100%;
     text-align: center;
     font-size: 18px; 
     color: white;
-
+    text-shadow:2px 2px 5px black;
 }
 .cardi h1{
     font-size:100px;
@@ -327,6 +335,7 @@ ai{
 .cardi p{
     margin: 10px;
     font-size: 30px;
+    text-shadow:2px 2px 2px black;
 }
 
 /* trade in */
@@ -355,6 +364,7 @@ ai{
 .intrade p{
     margin: 10px;
     font-size: 30px;
+    text-shadow:2px 2px 2px black;
 }
 
 .footer{
